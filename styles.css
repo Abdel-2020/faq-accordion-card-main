@@ -29,25 +29,20 @@
 
 .hero-box{
     position:absolute;
-    top:400px;
-    left:50px;
+    top:440px;
+    left:40px;
     z-index: 2;
 }
 
 .hero-desktop{
-    position:absolute;
-    margin-top: 80px;
-    left:60px;
-    width:550px;
-    height:auto;
-    z-index:1;
-}
-
-.hero-shadow{
-    position:absolute;
-    top:10px;
-    right:800px;
-    z-index:0;
+    position: relative;
+    bottom:30px;
+    right:10px;
+    margin-top: 60px;
+    width:540px;
+    height:500px;
+    object-fit: cover;
+    object-position: -120px;
 }
 
 /*End of hero image styling*/
@@ -74,7 +69,12 @@ li{
 }
 
 .faq-card{
+    border-radius: 2em;
     background-color: white;
+    background-image: url("images/bg-pattern-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 940px auto;
+    background-position: -420px -200px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
