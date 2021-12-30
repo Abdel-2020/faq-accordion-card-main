@@ -10,8 +10,6 @@ for(let i = 0; i < link.length; i++){
     link[i].addEventListener('click', e => {
         let text = document.getElementsByClassName("nav-text");
         text.item(i).style.display = "block";
-        return console.log(e);
-        
     })
 }
  
