@@ -81,6 +81,8 @@ li{
     z-index: 2;
 }
 
+
+
 .hero-desktop{
     position: relative;
     bottom:10px;
@@ -134,9 +136,12 @@ li{
     color:var(--Soft-red);
 }
 
+
 .nav-text{
     display:none;
 }
+
+
 
 
 
