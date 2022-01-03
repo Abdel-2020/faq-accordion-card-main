@@ -47,9 +47,17 @@ li {
     list-style-type: none;
 }
 
+/*Mobile Styles*/
+@media screen and (min-width:475){
 
 
 
+}
+
+/*Tablet Styles*/
+
+
+/*Laptop Styles and Larger screens*/
 
 @media only screen and (min-width: 1440px) {
 
@@ -64,9 +72,9 @@ li {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        width: 70vw;
-        height: 60vh;
-        margin: 20vh auto;
+        max-width:1000px;
+        min-height: 500px;
+        margin: 30vh auto;
         padding: 10px;
     }
 
@@ -93,11 +101,6 @@ li {
         object-fit: cover;
         object-position: -100px;
     }
-
-    /*End of hero image styling*/
-
-    /*FAQ styling*/
-
     .nav-section {
         width: 600px;
         padding: 10px;
@@ -145,3 +148,18 @@ li {
     }
 
 }
+
+
+
+
+/*Desktop Styles*/
+
+
+
+
+    /*End of hero image styling*/
+
+ 
+    /*FAQ styling*/
+
+  
