@@ -43,6 +43,10 @@ p {
     font-family: "Kumbh Sans";
 }
 
+p{
+    font-size: 14px;
+}
+
 li {
     list-style-type: none;
 }
@@ -105,8 +109,8 @@ li {
     color: var(--Very-dark-grayish-blue);
     font-weight: 400;
     font-size: 1.2rem;
-    padding: 0 15px 15px 0;
-    border-bottom: 1px solid var(--Light-grayish-blue);
+    margin-bottom: 0;
+
 }
 
 .nav-title:hover {
@@ -116,8 +120,18 @@ li {
 
 .nav-text {
     display: none;
+    width:90%;
+    color:var(--Dark-grayish-blue);
+    padding:10px 0;
+    margin-bottom: 5px;
+    line-height: 1.5rem;
 }
 
+
+.list-container{
+    margin:5px 0 15px 0;
+    border-bottom: 1px solid var(--Light-grayish-blue);
+}
 
 
 
