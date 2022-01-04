@@ -183,7 +183,7 @@ li {
         display: flex;
         flex-direction: column;
         max-width: 300px;
-        min-height:500px;
+        min-height: 500px;
         margin: 30vh auto;
         padding: 10px;
     }
@@ -198,12 +198,12 @@ li {
     }
 
     .nav-title {
-        font-size:0.9rem;
+        font-size: 0.9rem;
     }
 
     .nav-icon {
-        left:270px;
-        bottom:30px;
+        left: 270px;
+        bottom: 30px;
     }
 
 
