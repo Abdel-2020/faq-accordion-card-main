@@ -1,5 +1,3 @@
-
-
 //Find all nav-title and store them in "link". QuerySelectorAll stores them in an array format. 
 const link = document.querySelectorAll(".nav-title");
 //Create a for loop to iterate through each item in the array.
@@ -14,15 +12,15 @@ for (let i = 0; i < link.length; i++) {
         //Changes the display from "none" to "block" which should reveal the text.
         //Changes the font weight of navTitle to 700.
         text.item(i).style.display = "block";
-        navTitle.item(i).style.fontWeight="700";
+        navTitle.item(i).style.fontWeight = "700";
         console.log(e);
     })
 }
 
 for (let i = 0; i < link.length; i++) {
-        link[i].addEventListener('mouseover', e => {
-            console.log(e);
-        })
+    link[i].addEventListener('mouseover', e => {
+        console.log(e);
+    })
 
 
 }

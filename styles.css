@@ -43,7 +43,7 @@ p {
     font-family: "Kumbh Sans";
 }
 
-p{
+p {
     font-size: 14px;
 }
 
@@ -121,16 +121,16 @@ li {
 
 .nav-text {
     display: none;
-    width:90%;
-    color:var(--Dark-grayish-blue);
-    padding:10px 0;
+    width: 90%;
+    color: var(--Dark-grayish-blue);
+    padding: 10px 0;
     margin-bottom: 5px;
     line-height: 1.5rem;
 }
 
 
-.list-container{
-    margin:5px 0 15px 0;
+.list-container {
+    margin: 5px 0 15px 0;
     border-bottom: 1px solid var(--Light-grayish-blue);
 }
 
