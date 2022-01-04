@@ -1,21 +1,54 @@
+
+
 //Find all nav-title and store them in "link". QuerySelectorAll stores them in an array format. 
 const link = document.querySelectorAll(".nav-title");
-
-
 //Create a for loop to iterate through each item in the array.
 for (let i = 0; i < link.length; i++) {
 
     //Check if user has clicked the item
     link[i].addEventListener('click', e => {
         //Find all nav-text elements and store them in "text". Like querySelectorAll this stores them in an Array format.
+        //Find all nav-title elements and store them in navTitle. 
         let text = document.getElementsByClassName("nav-text");
+        let navTitle = document.getElementsByClassName("nav-title");
         //Changes the display from "none" to "block" which should reveal the text.
+        //Changes the font weight of navTitle to 700.
         text.item(i).style.display = "block";
+        navTitle.item(i).style.fontWeight="700";
         console.log(e);
     })
 }
 
-//Iterate through each link and check if they've been clicked. Display the hidden text. 
+for (let i = 0; i < link.length; i++) {
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
