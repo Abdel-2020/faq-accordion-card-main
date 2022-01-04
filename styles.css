@@ -101,7 +101,7 @@ li {
     height: auto;
     position: relative;
     left: 370px;
-    bottom: 40px;
+    bottom: 20px;
 
 }
 
@@ -115,6 +115,7 @@ li {
 
 .nav-title:hover {
     color: var(--Soft-red);
+    cursor: pointer;
 }
 
 
@@ -217,7 +218,7 @@ li {
 
     .nav-icon {
         left: 270px;
-        bottom: 30px;
+        bottom: 15px;
     }
 
 

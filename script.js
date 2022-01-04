@@ -20,8 +20,11 @@ for (let i = 0; i < link.length; i++) {
 }
 
 for (let i = 0; i < link.length; i++) {
+        link[i].addEventListener('mouseover', e => {
+            console.log(e);
+        })
 
-    
+
 }
 
 
