@@ -1,33 +1,56 @@
-//Find all nav-title and store them in "link". QuerySelectorAll stores them in an array format. 
-const link = document.querySelectorAll(".nav-title");
-//Create a for loop to iterate through each item in the array.
-for (let i = 0; i < link.length; i++) {
+//Functions
 
-    //Check if user has clicked the item
-    link[i].addEventListener('click', e => {
-        //Find all nav-text elements and store them in "text". Like querySelectorAll this stores them in an Array format.
-        //Find all nav-title elements and store them in navTitle. 
-        let text = document.getElementsByClassName("nav-text");
-        let navTitle = document.getElementsByClassName("nav-title");
-        //Changes the display from "none" to "block" which should reveal the text.
-        //Changes the font weight of navTitle to 700.
-        text.item(i).style.display = "block";
-        navTitle.item(i).style.fontWeight = "700";
-        console.log(e);
-    })
-}
+function showText() {
+    //Find all nav-title and store them in "link". QuerySelectorAll stores them in an array format. 
+    const link = document.querySelectorAll(".nav-title");
 
-for (let i = 0; i < link.length; i++) {
-    link[i].addEventListener('mouseover', e => {
-    let box = document.querySelector(".hero-box");
-        box.classList.toggle("hero-box-toggle");
-        link[i].addEventListener('mouseleave', e=> {
-            box.classList.toggle("hero-box-toggle");
+    //Create a for loop to iterate through each item in the array.
+    for (let i = 0; i < link.length; i++) {
+
+        //Check if user has clicked the item
+        link[i].addEventListener('click', e => {
+            //Find all nav-text elements and store them in "text". Like querySelectorAll this stores them in an Array format.
+            let text = document.getElementsByClassName("nav-text");
+            //Find all nav-title elements and store them in navTitle. 
+            let navTitle = document.getElementsByClassName("nav-title");
+            let navIcon = document.getElementsByClassName("nav-icon");
+            //Changes the display from "none" to "block" which should reveal the text.
+            text.item(i).style.display = "block";
+            //Changes the font weight of navTitle to 700.
+            navTitle.item(i).style.fontWeight = "700";
+            navIcon[i].classList.toggle("nav-icon-toggle");
+
             console.log(e);
         })
-        console.log(e);
-    })
+    }
 }
+
+function moveBox() {
+    //Find all nav-title and store them in "link". QuerySelectorAll stores them in an array format. 
+    const link = document.querySelectorAll(".nav-title");
+    for (let i = 0; i < link.length; i++) {
+        link[i].addEventListener('mouseover', e => {
+            let box = document.querySelector(".hero-box");
+            box.classList.toggle("hero-box-toggle");
+            link[i].addEventListener('mouseleave', e => {
+                box.classList.toggle("hero-box-toggle");
+                console.log(e);
+            })
+            console.log(e);
+        })
+    }
+}
+
+showText();
+moveBox();
+
+
+
+
+
+
+
+
 
 
 

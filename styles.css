@@ -64,7 +64,7 @@ li {
 }
 
 .hero-box-toggle {
-   transform: translateX(45px);
+    transform: translateX(45px);
 
 }
 
@@ -95,7 +95,7 @@ li {
     margin-top: 50px;
     font-size: 2rem;
     font-weight: 700;
-    color: var(--Very-dark-desaturated-blue)
+    color: var(--Very-dark-desaturated-blue);
 }
 
 .card-nav {
@@ -108,6 +108,11 @@ li {
     position: relative;
     left: 370px;
     bottom: 20px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.nav-icon-toggle {
+    transform: rotateX(180deg);
 
 }
 
@@ -132,6 +137,11 @@ li {
     padding: 10px 0;
     margin-bottom: 5px;
     line-height: 1.5rem;
+    transition: transform 0.5s ease-in-out;
+}
+
+.nav-text-toggle{
+    display: block;
 }
 
 
