@@ -19,10 +19,14 @@ for (let i = 0; i < link.length; i++) {
 
 for (let i = 0; i < link.length; i++) {
     link[i].addEventListener('mouseover', e => {
+    let box = document.querySelector(".hero-box");
+        box.classList.toggle("hero-box-toggle");
+        link[i].addEventListener('mouseleave', e=> {
+            box.classList.toggle("hero-box-toggle");
+            console.log(e);
+        })
         console.log(e);
     })
-
-
 }
 
 
