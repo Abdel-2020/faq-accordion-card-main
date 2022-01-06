@@ -51,6 +51,11 @@ li {
     list-style-type: none;
 }
 
+
+.attribution{
+    margin-bottom:25vh;
+}
+
 /*Hero image styling*/
 
 
@@ -290,7 +295,7 @@ li {
         justify-content: space-between;
         max-width: 1000px;
         min-height: 500px;
-        margin: 30vh auto;
+        margin: 10vh auto;
         padding: 10px;
     }
 
