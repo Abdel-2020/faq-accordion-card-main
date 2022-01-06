@@ -60,7 +60,7 @@ li {
     top: 240px;
     left: -135px;
     z-index: 2;
-    transition: transform 1s ease-in-out;
+    transition: transform 0.5s ease-out;
 }
 
 .hero-box-toggle {
@@ -145,7 +145,7 @@ li {
 }
 
 
-.list-container {
+.nav-item{
     margin: 5px 0 15px 0;
     border-bottom: 1px solid var(--Light-grayish-blue);
 }
