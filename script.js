@@ -17,10 +17,20 @@
              //Find all nav-title elements and store them in navTitle. 
              let navTitle = document.getElementsByClassName("nav-title");
              let navIcon = document.getElementsByClassName("nav-icon");
-             //Changes the display from "none" to "block" which should reveal the text.
-             text.item(i).style.display = "block";
-             //Changes the font weight of navTitle to 700.
-             navTitle.item(i).style.fontWeight = "700";
+
+
+             //check if a link is already clicked to retract the item from the list. Or show the contents. 
+             if (text[i].style.display == "block") {
+                 text[i].style.display = 'none';
+                 navTitle.item(i).style.fontWeight = "400";
+             } else {
+                 text[i].style.display = 'block';
+                 //Changes the font weight of navTitle to 700.
+                 navTitle.item(i).style.fontWeight = "700";
+             }
+
+
+
              navIcon[i].classList.toggle("nav-icon-toggle");
              console.log(e);
          })

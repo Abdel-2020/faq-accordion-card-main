@@ -140,12 +140,12 @@ li {
     transition: transform 0.5s ease-in-out;
 }
 
-.nav-text-toggle{
+.nav-text-toggle {
     display: block;
 }
 
 
-.nav-item{
+.nav-item {
     margin: 5px 0 15px 0;
     border-bottom: 1px solid var(--Light-grayish-blue);
 }
